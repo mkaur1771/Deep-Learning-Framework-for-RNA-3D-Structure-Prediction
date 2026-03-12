@@ -1,0 +1,17 @@
+## Environment & Dependencies
+
+This project was developed within the **Stanford RNA 3D Folding Challenge (Kaggle)** environment.  
+The competition enforces strict **offline execution rules**, meaning Kaggle notebooks **cannot use internet access** during training or inference to prevent external data leakage.
+
+Because of this restriction, all required resources must be available locally inside the runtime environment.
+
+To ensure the project runs fully offline and remains reproducible, the implementation relies on **Biopython** for handling biological sequence data and parsing RNA sequence information without requiring external downloads.
+
+All required dependencies are listed below:
+torch==2.1.0
+numpy==1.24.4
+pandas==2.0.3
+matplotlib==3.7.2
+scikit-learn==1.3.0
+tqdm==4.66.1
+biopython==1.81
